@@ -9,10 +9,6 @@ You'll probably want to amend / override:
 
 * `defaults/main.yml`
 
-* the `hosts`, as specified in the example playbook at `main.yml`:
-
-        - hosts: whatever
-
 Installation
 ------------
 

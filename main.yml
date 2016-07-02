@@ -1,6 +1,6 @@
 ---
 
-- hosts: whatever
+- hosts: all
   remote_user: root
   become: true
   become_user: root
