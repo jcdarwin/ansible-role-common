@@ -1,0 +1,11 @@
+---
+
+- hosts: whatever
+  remote_user: root
+  become: true
+  become_user: root
+  tags: install
+  handlers:
+  - include: handlers/main.yml
+  tasks:
+  - include: tasks/common_install.yml
