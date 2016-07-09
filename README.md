@@ -18,7 +18,14 @@ Preusming a `requirements.yml` as follows:
     - name: ansible-role-common
     src: https://github.com/jcdarwin/ansible-role-common
 
-we can install the role locally:
+We can install the role locally, using a `requirements.yml` file:
+
+    # Install a role from GitHub
+    - name: ansible-role-common
+    src: https://github.com/jcdarwin/ansible-role-common
+    path: roles/
+
+Install the role:
 
     ansible-galaxy install -r requirements.yml -p ./roles
 
