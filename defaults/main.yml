@@ -5,6 +5,7 @@ ansible_role_common:
   locale: "en_NZ"
 
   packages:
+  - apt-transport-https
   - build-essential
   - curl
   - cron-apt
