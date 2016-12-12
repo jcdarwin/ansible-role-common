@@ -16,6 +16,7 @@ ansible_role_common:
   - ncdu
   - psmisc
   - rsync
+  - sendmail-bin
   - tree
   - ufw
   - unattended-upgrades
