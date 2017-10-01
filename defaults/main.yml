@@ -16,7 +16,6 @@ ansible_role_common:
   - ncdu
   - psmisc
   - rsync
-  - sendmail-bin
   - tree
   - ufw
   - unattended-upgrades
@@ -30,5 +29,4 @@ ansible_role_common:
   - 80
   - 443
   - 587
-  - 2222
   - 9999

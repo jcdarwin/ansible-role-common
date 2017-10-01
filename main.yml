@@ -4,7 +4,8 @@
   remote_user: root
   become: true
   become_user: root
-  tags: install
+  become_method: sudo
+#   tags: common
   handlers:
   - include: handlers/main.yml
   tasks:
